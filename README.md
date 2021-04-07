@@ -31,8 +31,39 @@ postgres@server:~$ psql
 ```
 postgres@server:~$ createuser --interactive
 ```
+Note: It might be a good idea to create a username with the name as the username of system you're on.
+
+#### Accessing a database
+
+```
+$ psql {database_name}
+```
+Your username must first have been granted access to the database in question
+
+You can also specify which role you want to access a database as:
+```
+$ psql -U {role/username} {database_name}
+```
+
+#### Creating a new database
+
+As the postgres user, execute the following command replacing {dbname} with the desired name of your database.
+```
+postgres@server:~$ createdb {dbname}
+```
+
+#### Loading a database with a .sql file
 
 
+
+```
+$ createdb -U {username} {dbname}
+
+$ psql {dbname} < {filename}.sql
+```
+
+
+Final note: once at a promp use '\h' to request help information
 
 
 
