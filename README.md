@@ -1,7 +1,7 @@
 # Postgres setup notes for linux/unix systems
 
 Greater details of this explanation can be found here:
-[https://towardsdatascience.com/setting-up-postgresql-in-debian-based-linux-e4985b0b766f](Click here)
+[link to detailed linux postgres setup](https://towardsdatascience.com/setting-up-postgresql-in-debian-based-linux-e4985b0b766f)
 
 
 
